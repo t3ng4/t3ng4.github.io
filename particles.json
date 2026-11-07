@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 3,
+      "speed": 4,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -106,5 +106,8 @@
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": true,
+  "page": {
+    "background_color": "#000000"
+  }
 }
