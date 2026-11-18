@@ -1,0 +1,219 @@
+{
+  "particles": {
+    "number": {
+      "value": 35,
+      "density": {
+        "enable": true,
+        "value_area": 1440
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "polygon",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.37090524554716386,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 4,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 300,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 6
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.8,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "bounce",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 350,
+        "line_linked": {
+          "opacity": 0.9
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 3
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true,
+  "network": {
+    "form": "lines",
+    "fill_opacity": 0.14,
+    "curve": 0.3,
+    "neighbors": 7,
+    "dash": 5,
+    "electric": {
+      "enable": true,
+      "style": "both",
+      "color": "#3d3846",
+      "count": 8,
+      "speed": 150,
+      "size": 5.5,
+      "trail": 15
+    }
+  },
+  "page": {
+    "background_color": "#000000",
+    "background_style": "solid",
+    "glow_color": "#ffffff",
+    "effect_strength": 0.5,
+    "background_image": "",
+    "cursor_glow": false,
+    "cursor_glow_color": "#ffffff",
+    "cursor_glow_size": 300,
+    "cursor_glow_opacity": 0.12,
+    "overlay": "none",
+    "overlay_opacity": 0.5,
+    "click_ripple": false,
+    "ripple_color": "#ffffff"
+  },
+  "card": {
+    "title": "t3ng4",
+    "tagline": "my projects & links",
+    "typing": false,
+    "accent_color": "#ffffff",
+    "background_color": "#222222",
+    "background_opacity": 0,
+    "button_style": [
+      "glass"
+    ],
+    "link_background_color": "#2e2e2e",
+    "hover_style": [
+      "lift",
+      "grow",
+      "glow",
+      "shine",
+      "wiggle",
+      "icon-spin"
+    ],
+    "show_icons": true,
+    "show_descriptions": true,
+    "section_layout": "stacked",
+    "show_section_titles": true,
+    "entrance": "slide-left",
+    "entrance_speed": 4,
+    "show_avatar": true,
+    "avatar_url": "images/troop.jpg",
+    "avatar_size": 52,
+    "avatar_round": true,
+    "avatar_ring": true,
+    "avatar_effect": "pulse",
+    "avatar_effect_intensity": 2,
+    "avatar_effect_speed": 0.5,
+    "sections": [
+      {
+        "title": "",
+        "links": [
+          {
+            "name": "GitHub",
+            "desc": "all my repositories",
+            "url": "https://github.com/t3ng4",
+            "icon": "github",
+            "badge": "",
+            "hidden": false
+          },
+          {
+            "name": "inputdeck",
+            "desc": "input remapping for Linux",
+            "url": "https://github.com/t3ng4/inputdeck",
+            "icon": "keyboard",
+            "badge": "",
+            "hidden": false
+          },
+          {
+            "name": "GW2 Performance Inspector",
+            "desc": "WvW combat log analysis",
+            "url": "https://github.com/t3ng4/GW2-Performance-Inspector",
+            "icon": "gauge",
+            "badge": "",
+            "hidden": false
+          },
+          {
+            "name": "SI",
+            "desc": "SI",
+            "url": "https://www.dropbox.com/scl/fi/2mgtl9whhasc2z0jng7zi/SI?rlkey=23l3a9tycdi9wmugiwugh9o8i&st=ei64wzvu&dl=0",
+            "icon": "shield",
+            "badge": "",
+            "hidden": false
+          }
+        ]
+      }
+    ],
+    "socials": [],
+    "socials_position": "card",
+    "socials_hover": [
+      "lift"
+    ]
+  }
+}
